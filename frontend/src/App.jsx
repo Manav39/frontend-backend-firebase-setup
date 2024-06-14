@@ -8,6 +8,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
+import ContactUs from "./pages/ContactUs";
+import Education from "./pages/Education";
 function App() {
   return (
     <Routes>
@@ -19,6 +21,8 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/home" element={<Home/>}/>
+      <Route path="/contact" element={<ContactUs/>}/>
+      <Route path="/education" element={<Education/>}/>
     </Routes>
   );
 }
