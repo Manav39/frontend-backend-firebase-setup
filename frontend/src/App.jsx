@@ -7,6 +7,7 @@ import GoogleLogin from "./pages/GoogleLogin";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
+import Home from "./pages/Home";
 function App() {
   return (
     <Routes>
@@ -17,6 +18,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/home" element={<Home/>}/>
     </Routes>
   );
 }
