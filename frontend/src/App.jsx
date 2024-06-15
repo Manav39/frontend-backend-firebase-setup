@@ -7,6 +7,8 @@ import GoogleLogin from "./pages/GoogleLogin";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
+import FirebaseTest from "./pages/FirebaseTest";
+import Retrieve from "./pages/Retrieve";
 function App() {
   return (
     <Routes>
@@ -17,6 +19,8 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/test" element={<FirebaseTest />} />
+      <Route path="/retrieve" element={<Retrieve />} />
     </Routes>
   );
 }

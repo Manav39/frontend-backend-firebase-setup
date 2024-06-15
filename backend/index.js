@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 connectToMongo(
-  "mongodb+srv://manav:manav@cluster0.y1zrxv3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://priyam:priyam@cluster0.8twpa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
   .then(() => {
     console.log("Connected to MongoDB Atlas");
