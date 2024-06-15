@@ -7,6 +7,8 @@ import GoogleLogin from "./pages/GoogleLogin";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
+import FirebaseTest from "./pages/FirebaseTest";
+import Retrieve from "./pages/Retrieve";
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import Education from "./pages/Education";
@@ -20,9 +22,11 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/home" element={<Home/>}/>
-      <Route path="/contact" element={<ContactUs/>}/>
-      <Route path="/education" element={<Education/>}/>
+      <Route path="/home" element={<Home />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="/education" element={<Education />} />
+      <Route path="/test" element={<FirebaseTest />} />
+      <Route path="/retrieve" element={<Retrieve />} />
     </Routes>
   );
 }
